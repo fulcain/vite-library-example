@@ -1,5 +1,11 @@
-const hello = (name: string) => {
-    return `Hello there, ${name}!`;
+type InputsForHello = {
+    name: string;
+    surname: string;
+    age: number | string;
 };
 
-export { hello };
+const gretings = ({ name, surname, age }: InputsForHello) => {
+    return `${name} ${surname} ${age} years old.`;
+};
+
+export { gretings };
