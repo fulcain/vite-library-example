@@ -5,14 +5,14 @@
     "description": "This is a test for creating npm package",
     "files": [
         "dist",
-        "./README.md"
+        "README.md"
     ],
-    "main": "./dist/silverBox.umd.cjs",
-    "module": "./dist/silberBox.js",
-    "typings": "./dist/silverBox.d.ts",
+    "main": "./dist/fulcain.umd.cjs",
+    "module": "./dist/fulcain.js",
+    "typings": "./dist/fulcain.d.ts",
     "keywords": [
         "library",
-        "silberBox",
+        "fulcain",
         "ts"
     ],
     "author": "fulcain",
@@ -22,8 +22,8 @@
     },
     "exports": {
         ".": {
-            "import": "./dist/silverBox.js",
-            "require": "./dist/silverBox.umd.cjs"
+            "import": "./dist/fulcain.js",
+            "require": "./dist/fulcain.umd.cjs"
         }
     },
     "scripts": {
@@ -32,12 +32,13 @@
         "preview": "vite preview"
     },
     "devDependencies": {
-        "typescript": "^5.0.2",
-        "vite": "^4.4.5",
         "@rollup/plugin-typescript": "^8.2.1",
         "@types/node": "^17.0.35",
         "prettier": "2.6.2",
         "rollup-plugin-typescript-paths": "^1.3.0",
-        "tslib": "^2.4.0"
+        "tslib": "^2.4.0",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5"
+    },
     }
 }

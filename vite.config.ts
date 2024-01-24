@@ -23,8 +23,8 @@ export default defineConfig({
         reportCompressedSize: true,
         lib: {
             entry: path.resolve(__dirname, "src/main.ts"),
-            name: "silverBox",
-            fileName: "silverBox",
+            name: "fulcain",
+            fileName: "fulcain",
             formats: ["es", "cjs","umd"],
         },
         rollupOptions: {
