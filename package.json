@@ -1,29 +1,26 @@
 {
     "name": "test-package-fulcain",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "type": "module",
     "description": "This is a test for creating an npm package",
-    "_comment": "Specify the build dir for vite build",
-    "files": ["dist", "README.md"],
-
-    "_comment": "typically points to the entry point for CommonJS usage",
+    "_comment": "used to define the entry points for different environments.",
+    "files": [
+        "dist",
+        "README.md"
+    ],
     "main": "./dist/fulcain.umd.cjs",
-
-    "_comment": "points to the entry point for ES Module usage.",
     "module": "./dist/fulcain.js",
-
-    "_comment": "The file related to all types",
     "typings": "./dist/main.d.ts",
-
-    "_comment": "Npm tags",
-    "keywords": ["library", "fulcain", "ts"],
+    "keywords": [
+        "library",
+        "fulcain",
+        "ts"
+    ],
     "author": "fulcain",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/fulcain/vite-library-example.git"
     },
-
-    "_comment": "used to define the entry points for different environments.",
     "exports": {
         "_comment": "Dual package support",
         ".": {
