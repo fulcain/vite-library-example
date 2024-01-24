@@ -1,11 +1,9 @@
-type InputsForHello = {
-    name: string;
-    surname: string;
-    age: number | string;
+const capitalize = (string: string): string => {
+    const arrayOfWords = string.split(" ").filter(Boolean);
+
+    return arrayOfWords
+        .map((word) => (word = word[0].toUpperCase() + word.slice(1)))
+        .join(" ");
 };
 
-const grettings = ({ name, surname, age }: InputsForHello) => {
-    return `${name} ${surname} ${age} years old.`;
-};
-
-export { grettings };
+export { capitalize };

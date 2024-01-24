@@ -1,17 +1,17 @@
-# How to use
+# Import
 
 import the package using:
+
 ```js
-import {hello} from "test-package-fulcain"
+import { capitalize } from "test-package-fulcain";
 ```
 
-then pass it a string and save it in a variable.
+# Usage
 
-ex: 
 ```js
-import { hello } from "test-package-fulcain"
+import { capitalize } from "test-package-fulcain";
 
-const hi = hello("Fulcain");
+const text = capitalize("This is a test text.");
 
-console.log(hi);
+console.log(text); // This Is A Test Text.
 ```
