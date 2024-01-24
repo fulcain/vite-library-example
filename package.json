@@ -1,43 +1,36 @@
 {
-    "name": "test-package-fulcain",
-    "version": "2.0.1",
-    "type": "module",
-    "description": "This is a test for creating npm package",
-    "files": [
-        "dist",
-        "README.md"
-    ],
-    "main": "./dist/fulcain.umd.cjs",
-    "module": "./dist/fulcain.js",
-    "typings": "./dist/main.d.ts",
-    "keywords": [
-        "library",
-        "fulcain",
-        "ts"
-    ],
-    "author": "fulcain",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fulcain/vite-library-example.git"
-    },
-    "exports": {
-        ".": {
-            "import": "./dist/fulcain.js",
-            "require": "./dist/fulcain.umd.cjs"
-        }
-    },
-    "scripts": {
-        "dev": "vite",
-        "build": "tsc && vite build",
-        "preview": "vite preview"
-    },
-    "devDependencies": {
-        "@rollup/plugin-typescript": "^8.2.1",
-        "@types/node": "^17.0.35",
-        "prettier": "2.6.2",
-        "rollup-plugin-typescript-paths": "^1.3.0",
-        "tslib": "^2.4.0",
-        "typescript": "^5.0.2",
-        "vite": "^4.4.5"
+  "name": "test-package-fulcain",
+  "version": "2.0.1",
+  "type": "module",
+  "description": "This is a test for creating an npm package",
+  "files": ["dist", "README.md"],
+  "main": "./dist/fulcain.umd.cjs",
+  "module": "./dist/fulcain.js",
+  "typings": "./dist/main.d.ts",
+  "keywords": ["library", "fulcain", "ts"],
+  "author": "fulcain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fulcain/vite-library-example.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/fulcain.js",
+      "require": "./dist/fulcain.umd.cjs"
     }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/node": "^17.0.35",
+    "prettier": "2.6.2",
+    "rollup-plugin-typescript-paths": "^1.3.0",
+    "tslib": "^2.4.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
 }
