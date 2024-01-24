@@ -9,7 +9,7 @@
     ],
     "main": "./dist/fulcain.umd.cjs",
     "module": "./dist/fulcain.js",
-    "typings": "./dist/fulcain.d.ts",
+    "typings": "./dist/main.d.ts",
     "keywords": [
         "library",
         "fulcain",
@@ -39,6 +39,5 @@
         "tslib": "^2.4.0",
         "typescript": "^5.0.2",
         "vite": "^4.4.5"
-    },
     }
 }
