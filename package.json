@@ -1,12 +1,25 @@
 {
-    "name": "library-test",
-    "private": true,
-    "version": "0.0.0",
+    "name": "test-package-fulcain",
+    "version": "0.0.1",
     "type": "module",
-    "files": ["dist"],
+    "description": "This is a test for creating npm package",
+    "files": [
+        "dist",
+        "./README.md"
+    ],
     "main": "./dist/silverBox.umd.cjs",
     "module": "./dist/silberBox.js",
     "typings": "./dist/silverBox.d.ts",
+    "keywords": [
+        "library",
+        "silberBox",
+        "ts"
+    ],
+    "author": "fulcain",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fulcain/vite-library-example.git"
+    },
     "exports": {
         ".": {
             "import": "./dist/silverBox.js",
