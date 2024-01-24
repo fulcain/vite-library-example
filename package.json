@@ -1,6 +1,6 @@
 {
     "name": "test-package-fulcain",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "type": "module",
     "description": "This is a test for creating npm package",
     "files": [
