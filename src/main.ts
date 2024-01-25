@@ -6,4 +6,4 @@ const capitalize = (string: string): string => {
         .join(" ");
 };
 
-export { capitalize };
+export default capitalize;

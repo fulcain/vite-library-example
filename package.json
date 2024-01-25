@@ -3,7 +3,6 @@
     "version": "2.0.3",
     "type": "module",
     "description": "This is a test for creating an npm package",
-    "_comment": "used to define the entry points for different environments.",
     "files": [
         "dist",
         "README.md"
@@ -22,7 +21,6 @@
         "url": "git+https://github.com/fulcain/vite-library-example.git"
     },
     "exports": {
-        "_comment": "Dual package support",
         ".": {
             "import": "./dist/fulcain.js",
             "require": "./dist/fulcain.umd.cjs"
